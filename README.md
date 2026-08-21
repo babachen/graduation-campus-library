@@ -1,64 +1,64 @@
-# Campus Library Management System (Showcase)
+# 校园图书借阅管理系统（展示版）
 
-![cover](./docs/cover.svg)
+**关键词**：图书管理系统、校园图书借阅、座位预约、Spring Boot、Vue、毕业设计
 
+> **展示仓库**：部分示例代码 + 架构说明。  
+> **不是**完整可运行交付包。
 
-校园图书借阅管理系统（展示版）
+---
 
-> **Showcase repository** — partial educational code + architecture notes.  
-> Not a full production dump. No student thesis files, no real secrets.
+## 相关链接（优先看这里）
 
-## Tech stack
+| 说明 | 链接 |
+|------|------|
+| 计算机毕设定制官网 · 毕设无忧 | https://www.bysj.site |
+| 课题工坊 · 项目列表 | https://app.bysj.site/?page=products |
+| 开源展示清单 | https://github.com/babachen/bysj-open-source-catalog |
+| 博客 · 选题落地指南 | https://www.bysj.site/blog/p/computer-science-graduation-project-guide |
+| 博客 · 开题报告写法 | https://www.bysj.site/blog/p/how-to-write-proposal |
+| 博客专栏 | https://www.bysj.site/blog/ |
 
-Spring Boot + Vue + MySQL
+**说明**：本仓库为教学展示 / 架构样例，仅包含部分模块说明与示例代码，**不是完整交付源码**。  
+完整可运行项目、论文与部署辅导请通过 [官网](https://www.bysj.site) 或 [课题工坊](https://app.bysj.site/?page=products) 了解。
 
-## Features (product scope)
+---
+
+## 项目简介
+
+校园图书借阅管理系统（展示版），面向高校图书管理与阅览场景，覆盖图书分类库存、借还流程、座位预约与活动社区等能力（完整版功能以交付为准）。
+
+## 主要功能（产品范围）
 
 - 图书分类与库存
 - 借阅 / 归还流程（完整版）
 - 阅览室座位预约（完整版）
 - 阅读活动与简易论坛（完整版）
 
-## What's in this repo
+## 技术栈
 
-| Path | Content |
-|------|---------|
-| `docs/ARCHITECTURE.md` | Module diagram & boundaries |
-| `samples/` | Small, self-contained excerpts |
-| `LICENSE` | MIT |
+Spring Boot + Vue + MySQL
 
-Included samples: samples/java/.../BookController.java, BookService.java, Result.java, samples/sql/schema-fragment.sql, samples/vue/BookList.vue
+## 本仓内容
 
-## Quick read path
+| 路径 | 内容 |
+|------|------|
+| docs/ARCHITECTURE.md | 模块边界与结构说明 |
+| samples/ | 小型自包含示例 |
+| LICENSE | MIT |
 
-1. Read `docs/ARCHITECTURE.md`
-2. Skim `samples/sql/schema-fragment.sql`
-3. Read one Controller + Service pair under `samples/java`
-4. Optional: Vue snippet under `samples/vue`
+示例文件：`samples/java/.../BookController.java`、`BookService.java`、`Result.java`、`samples/sql/schema-fragment.sql`、`samples/vue/BookList.vue`
 
-## Disclaimer
+## 建议阅读顺序
 
-- Code here is **rewritten for open source teaching**, not a byte-for-byte export of any client delivery.
-- Do **not** expect `mvn spring-boot:run` to boot a full system from this repo alone.
-- For a complete runnable graduation project (code + docs + deploy help), see the links below.
+1. `docs/ARCHITECTURE.md`
+2. `samples/sql/schema-fragment.sql`
+3. `samples/java` 下 Controller + Service
+4. 可选：`samples/vue`
 
+## 声明
 
-## Related / 相关链接
-
-- 计算机毕设定制官网：**[毕设无忧](https://www.bysj.site)**  
-- 在线课题工坊 / 项目成品展示：**[课题工坊 · 项目列表](https://app.bysj.site/?page=products)**  
-- 更多开源展示清单：https://github.com/babachen/bysj-open-source-catalog  
-
-> 本仓库为**教学展示 / 架构样例**，仅包含部分模块说明与示例代码，**不是**完整交付源码。  
-> 完整可运行项目、论文与部署辅导请通过官网或课题工坊了解。
-
-
-## 相关博客介绍（来自官网）
-
-- 选题方法可参考：[计算机毕业设计选题与落地指南](https://www.bysj.site/blog/p/computer-science-graduation-project-guide)（catalog 内副本：[同步文](https://github.com/babachen/bysj-open-source-catalog/blob/main/blog/computer-science-graduation-project-guide.md)）
-- 开题结构可参考：[如何准备开题报告](https://www.bysj.site/blog/p/how-to-write-proposal)
-
-更多文章：https://www.bysj.site/blog/
+代码为开源教学改写，不是任何客户交付的逐字节导出。  
+不要期望仅靠本仓库即可 `mvn spring-boot:run` 启动完整系统。
 
 ## License
 
