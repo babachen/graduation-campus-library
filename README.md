@@ -1,5 +1,8 @@
 # Campus Library Management System (Showcase)
 
+![cover](./docs/cover.svg)
+
+
 校园图书借阅管理系统（展示版）
 
 > **Showcase repository** — partial educational code + architecture notes.  
@@ -49,6 +52,13 @@ Included samples: samples/java/.../BookController.java, BookService.java, Result
 > 本仓库为**教学展示 / 架构样例**，仅包含部分模块说明与示例代码，**不是**完整交付源码。  
 > 完整可运行项目、论文与部署辅导请通过官网或课题工坊了解。
 
+
+## 相关博客介绍（来自官网）
+
+- 选题方法可参考：[计算机毕业设计选题与落地指南](https://www.bysj.site/blog/p/computer-science-graduation-project-guide)（catalog 内副本：[同步文](https://github.com/babachen/bysj-open-source-catalog/blob/main/blog/computer-science-graduation-project-guide.md)）
+- 开题结构可参考：[如何准备开题报告](https://www.bysj.site/blog/p/how-to-write-proposal)
+
+更多文章：https://www.bysj.site/blog/
 
 ## License
 
