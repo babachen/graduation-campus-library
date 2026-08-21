@@ -1,0 +1,20 @@
+-- Showcase schema fragment (not a full dump)
+CREATE TABLE IF NOT EXISTS book (
+  id BIGINT PRIMARY KEY AUTO_INCREMENT,
+  title VARCHAR(200) NOT NULL,
+  isbn VARCHAR(32),
+  category_id BIGINT,
+  stock INT NOT NULL DEFAULT 0,
+  status TINYINT NOT NULL DEFAULT 1,
+  created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS borrow_record (
+  id BIGINT PRIMARY KEY AUTO_INCREMENT,
+  user_id BIGINT NOT NULL,
+  book_id BIGINT NOT NULL,
+  borrowed_at DATETIME NOT NULL,
+  due_at DATETIME NOT NULL,
+  returned_at DATETIME NULL,
+  status VARCHAR(20) NOT NULL
+);

@@ -1,0 +1,16 @@
+node_modules/
+target/
+dist/
+.idea/
+*.iml
+.venv/
+.env
+.env.*
+*.log
+.DS_Store
+uploads/
+files/
+*.mp4
+*.docx
+*.doc
+*.zip

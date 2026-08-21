@@ -1,0 +1,14 @@
+{
+  "name": "graduation-campus-library",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Campus Library Management System (Showcase) — educational showcase for bysj.site",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/babachen/graduation-campus-library.git"
+  },
+  "homepage": "https://github.com/babachen/graduation-campus-library#readme",
+  "bugs": { "url": "https://github.com/babachen/graduation-campus-library/issues" },
+  "keywords": ["graduation-project", "spring-boot", "vue", "showcase", "bysj"]
+}
